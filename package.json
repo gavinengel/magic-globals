@@ -1,10 +1,15 @@
 {
   "name": "magic-globals",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Magic Globals, similar to Magic Constants in PHP",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository" :
+  { 
+    "type" : "git", 
+    "url" : "https://github.com/gavinengel/magic-globals"
   },
   "keywords": [
     "magic",
