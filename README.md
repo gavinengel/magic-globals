@@ -1,6 +1,6 @@
 # Magic Globals
 
-Similar to Magic Constants in PHP
+Similar to Magic Constants in PHP.  Useful for debugging.
 
 ## Installation
 
@@ -14,14 +14,19 @@ Install via npm:
 
     // you may now use additional global objects,
     // in addition to built-ins: __filename and __dirname
-    console.log('__line: ' + __line);
-    console.log('__file: ' + __file); 
-    console.log('__ext: ' + __ext); 
-    console.log('__base: ' + __base);
-    console.log('__filename: ' + __filename);
-    console.log('__function: ' + __function);
-    console.log('__dirname: ' + __dirname);
-    console.log('__stack: ' + __stack);
+    console.log('__line: ' + __line); // ex: 6
+    console.log('__file: ' + __file); // ex: server
+    console.log('__ext: ' + __ext); // ex: js
+    console.log('__base: ' + __base); // ex: /home/node/apps/5pt-app-model-example/api-example
+    console.log('__filename: ' + __filename); // ex: /home/node/apps/5pt-app-model-example/api-example/server/server.js
+    console.log('__function: ' + __function); // ex: someFunction or (anonymous) 
+    console.log('__dirname: ' + __dirname); // ex: /home/node/apps/5pt-app-model-example/api-example/server
+
+## Credits
+These sources have helped to create this module by sharing their code:
+* http://stackoverflow.com/questions/13591785/does-node-js-have-anything-like-file-and-line-like-the-c-preprocessor 
+* http://stackoverflow.com/questions/11386492/accessing-line-number-in-v8-javascript-chrome-node-js 
+* https://gist.github.com/lordvlad/ec81834ddff73aaa1ab0
 
 ## License
 
@@ -47,4 +52,3 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
