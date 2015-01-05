@@ -5,22 +5,23 @@ Similar to Magic Constants in PHP.  Useful for debugging.
 ## Installation
 
 Install via npm:
-
-    $ npm install magic-globals --save
+`npm install magic-globals`
 
 ## Usage
-    // require this module without assigning export
-    require('magic-globals');
+```js
+// require this module without assigning export
+require('magic-globals');
 
-    // you may now use additional global objects,
-    // in addition to built-ins: __filename and __dirname
-    console.log('__line: ' + __line); // ex: 6
-    console.log('__file: ' + __file); // ex: server
-    console.log('__ext: ' + __ext); // ex: js
-    console.log('__base: ' + __base); // ex: /home/node/apps/5pt-app-model-example/api-example
-    console.log('__filename: ' + __filename); // ex: /home/node/apps/5pt-app-model-example/api-example/server/server.js
-    console.log('__function: ' + __function); // ex: someFunction or (anonymous) 
-    console.log('__dirname: ' + __dirname); // ex: /home/node/apps/5pt-app-model-example/api-example/server
+// you may now use additional global objects,
+// in addition to built-ins: __filename and __dirname
+console.log('__line: ' + __line); // ex: 6
+console.log('__file: ' + __file); // ex: server
+console.log('__ext: ' + __ext); // ex: js
+console.log('__base: ' + __base); // ex: /home/node/apps/5pt-app-model-example/api-example
+console.log('__filename: ' + __filename); // ex: /home/node/apps/5pt-app-model-example/api-example/server/server.js
+console.log('__function: ' + __function); // ex: someFunction or (anonymous) 
+console.log('__dirname: ' + __dirname); // ex: /home/node/apps/5pt-app-model-example/api-example/server
+```
 
 ## Credits
 These sources have helped to create this module by sharing their code:
