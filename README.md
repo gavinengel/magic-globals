@@ -19,7 +19,7 @@ console.log('__file: ' + __file); // ex: server
 console.log('__ext: ' + __ext); // ex: js
 console.log('__base: ' + __base); // ex: /home/node/apps/5pt-app-model-example/api-example
 console.log('__filename: ' + __filename); // ex: /home/node/apps/5pt-app-model-example/api-example/server/server.js
-console.log('__function: ' + __function); // ex: someFunction or (anonymous) 
+console.log('__func: ' + __func); // ex: someFunction or (anonymous) 
 console.log('__dirname: ' + __dirname); // ex: /home/node/apps/5pt-app-model-example/api-example/server
 ```
 

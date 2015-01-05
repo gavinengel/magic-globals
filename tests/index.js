@@ -10,7 +10,7 @@ console.log('__ext: ' + __ext);
 console.log('__base: ' + __base);
 console.log('__filename: ' + __filename);
 console.log('__dirname: ' + __dirname);
-console.log('__function: ' + __function);
+console.log('__func: ' + __func);
 console.log('__stack: ' + __stack);
 
 function someFunction() {
@@ -21,7 +21,7 @@ function someFunction() {
     console.log('__base: ' + __base);
     console.log('__filename: ' + __filename);
     console.log('__dirname: ' + __dirname);
-    console.log('__function: ' + __function);
+    console.log('__func: ' + __func);
     console.log('__stack: ' + __stack);
 }
 someFunction();

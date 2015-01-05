@@ -41,7 +41,7 @@ Object.defineProperty(global, '__ext', {
  * return current function
  * @source https://gist.github.com/lordvlad/ec81834ddff73aaa1ab0
  */
-Object.defineProperty(global, '__function', {
+Object.defineProperty(global, '__func', {
     get: function(){
         return arguments.callee.caller && arguments.callee.caller.name || '(anonymous)';
     }
