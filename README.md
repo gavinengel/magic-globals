@@ -1,6 +1,6 @@
 # Magic Globals
-[![npm version](https://badge.fury.io/js/magic-globals.svg)](http://badge.fury.io/js/magic-globals)
 Similar to Magic Constants in PHP.  Useful for debugging.
+[![npm version](https://badge.fury.io/js/magic-globals.svg)](http://badge.fury.io/js/magic-globals)
 
 ## Usage
 ```js
