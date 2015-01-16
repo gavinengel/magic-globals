@@ -2,10 +2,6 @@
 [![npm version](https://badge.fury.io/js/magic-globals.svg)](http://badge.fury.io/js/magic-globals)
 Similar to Magic Constants in PHP.  Useful for debugging.
 
-
-## Installation
-`npm install magic-globals`
-
 ## Usage
 ```js
 // require this module without assigning export
