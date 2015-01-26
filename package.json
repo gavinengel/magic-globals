@@ -1,7 +1,7 @@
 {
   "name": "magic-globals",
-  "version": "0.3.1",
-  "description": "Magic Globals, ex. '__line' and '__func'. Similar to Magic Constants in PHP",
+  "version": "0.3.2",
+  "description": "Magic Globals, ex. `__line` and `__func`. Similar to Magic Constants in PHP",
   "main": "magic-globals.js",
   "scripts": {
     "test": "node ./tests/index.js"
