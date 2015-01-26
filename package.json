@@ -1,15 +1,14 @@
 {
   "name": "magic-globals",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Magic Globals, ex. '__line' and '__func'. Similar to Magic Constants in PHP",
   "main": "magic-globals.js",
   "scripts": {
     "test": "node ./tests/index.js"
   },
-  "repository" :
-  { 
-    "type" : "git", 
-    "url" : "https://github.com/gavinengel/magic-globals"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gavinengel/magic-globals"
   },
   "keywords": [
     "magic",
