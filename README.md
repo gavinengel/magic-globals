@@ -26,6 +26,8 @@ These sources have helped to create this module by sharing their code:
 * https://gist.github.com/lordvlad/ec81834ddff73aaa1ab0
 
 ## License
+
 (The MIT License)
 Copyright (c) 2015 Gavin Engel <<gavin@engel.com>>
+
 See: http://opensource.org/licenses/MIT
