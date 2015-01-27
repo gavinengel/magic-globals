@@ -25,6 +25,10 @@ These sources have helped to create this module by sharing their code:
 * http://stackoverflow.com/questions/11386492/accessing-line-number-in-v8-javascript-chrome-node-js 
 * https://gist.github.com/lordvlad/ec81834ddff73aaa1ab0
 
+## Alternatives
+These are alternative projects which can yield achieve a similar result.
+* https://www.npmjs.com/package/nor-debug
+
 ## License
 
 (The MIT License)
