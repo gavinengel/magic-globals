@@ -12,7 +12,8 @@
   },
   "keywords": [
     "magic",
-    "globals"
+    "globals",
+    "debug"
   ],
   "author": "Gavin Engel",
   "license": "MIT"
