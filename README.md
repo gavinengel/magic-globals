@@ -26,8 +26,9 @@ These sources have helped to create this module by sharing their code:
 * https://gist.github.com/lordvlad/ec81834ddff73aaa1ab0
 
 ## Alternatives
-These are alternative projects which can yield achieve a similar result.
+These are alternative projects which can yield achieve a similar result:
 * https://www.npmjs.com/package/nor-debug
+* https://www.npmjs.com/package/pitestglobals
 
 ## License
 
