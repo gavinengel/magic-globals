@@ -12,14 +12,14 @@ require('magic-globals');
 
 // you may now use additional global objects,
 // in addition to built-ins: __filename and __dirname
-console.log('__line: ' + __line); // ex: 6
-console.log('__file: ' + __file); // ex: server
-console.log('__ext: ' + __ext); // ex: js
-console.log('__base: ' + __base); // ex: /home/node/apps/5pt-app-model-example/api-example
-console.log('__filename: ' + __filename); // ex: /home/node/apps/5pt-app-model-example/api-example/server/server.js
-console.log('__func: ' + __func); // ex: someFunction or (anonymous) 
-console.log('__dirname: ' + __dirname); // ex: /home/node/apps/5pt-app-model-example/api-example/server
-console.log('__fili: ' + __fili); // ex: /home/node/apps/5pt-app-model-example/api-example/server/server.js:6
+console.log('__line: ' + __line); // 6
+console.log('__file: ' + __file); // server
+console.log('__ext: ' + __ext); // js
+console.log('__base: ' + __base); // /home/node/apps/5pt-app-model-example/api-example
+console.log('__filename: ' + __filename); // /home/node/apps/5pt-app-model-example/api-example/server/server.js
+console.log('__func: ' + __func); // someFunction or (anonymous) 
+console.log('__dirname: ' + __dirname); // /home/node/apps/5pt-app-model-example/api-example/server
+console.log('__fili: ' + __fili); // /home/node/apps/5pt-app-model-example/api-example/server/server.js:6
 ```
 
 ## Credits
@@ -35,7 +35,6 @@ These are alternative projects which can yield achieve a similar result:
 
 ## License
 
-(The MIT License)
+[(The MIT License)](http://opensource.org/licenses/MIT)
 Copyright (c) 2015 Gavin Engel <<gavin@engel.com>>
 
-See: http://opensource.org/licenses/MIT
