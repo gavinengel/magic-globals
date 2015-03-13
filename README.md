@@ -35,6 +35,6 @@ These are alternative projects which can yield achieve a similar result:
 
 ## License
 
-[(The MIT License)](http://opensource.org/licenses/MIT)
+([The MIT License](http://opensource.org/licenses/MIT))
 Copyright (c) 2015 Gavin Engel <<gavin@engel.com>>
 
