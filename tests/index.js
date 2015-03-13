@@ -1,32 +1,44 @@
 /**
  * @example node ./tests/index.js
  */ 
-require('../magic-globals');
 
-console.log('*** NOT INSIDE A FUNCTION ***');
-console.log('__line: ' + __line);
-console.log('__file: ' + __file); 
-console.log('__ext: ' + __ext); 
-console.log('__base: ' + __base);
-console.log('__filename: ' + __filename);
-console.log('__dirname: ' + __dirname);
-console.log('__func: ' + __func);
-console.log('__stack: ' + __stack);
+require('../magic-globals');
+o = console.log
+
+
+o('*** NOT INSIDE A FUNCTION ***')
+o('__line: ' + __line)
+o('__file: ' + __file) 
+o('__fili: ' + __fili)
+o('__ext: ' + __ext) 
+o('__base: ' + __base)
+o('__filename: ' + __filename)
+o('__dirname: ' + __dirname)
+o('__func: ' + __func)
+o('__stack: ' + __stack)
 
 function someFunction() {
-    console.log("\n*** INSIDE A FUNCTION ***");
-    console.log('__line: ' + __line);
-    console.log('__file: ' + __file); 
-    console.log('__ext: ' + __ext); 
-    console.log('__base: ' + __base);
-    console.log('__filename: ' + __filename);
-    console.log('__dirname: ' + __dirname);
-    console.log('__func: ' + __func);
-    console.log('__stack: ' + __stack);
+    o('\n*** INSIDE A FUNCTION ***')
+    o('__line: ' + __line)
+    o('__file: ' + __file) 
+    o('__fili: ' + __fili)  
+    o('__ext: ' + __ext) 
+    o('__base: ' + __base)
+    o('__filename: ' + __filename)
+    o('__dirname: ' + __dirname)
+    o('__func: ' + __func)
+    o('__stack: ' + __stack)
 }
 someFunction();
 
-console.log("\n*** EXPLORING __stack ***");
+o('\n*** EXPLORING __stack ***')
 for (var i = 0; i < __stack.length; i++) {
-    console.log('__stack[' + i + ']: ' + __stack[i]);
+    o('__stack[' + i + ']: ' + __stack[i])
 }
+
+
+o('\n*** CHILD COMMANDS ***')
+// default __fili useful for copypaste to edit in Sublime.  To make things a smidge easier in vim, you can set the __fili delimiter
+GLOBAL.__filid = ' +'
+o('__fili for vim users:')
+o(__fili)

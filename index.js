@@ -53,3 +53,17 @@ Object.defineProperty(global, '__base', {
     return process.cwd(); 
   }
 });
+
+/** returns filename, a colon, and line number when placing this in your code: __fili */
+Object.defineProperty(global, '__fili', {
+  get: function(){
+    filid = ':'
+    if ( typeof GLOBAL.__filid !== 'undefined' && GLOBAL.__filid )
+    {
+      filid = GLOBAL.__filid;
+    }
+
+    return __stack[1].getFileName() + filid + __stack[1].getLineNumber();
+  }
+});
+
