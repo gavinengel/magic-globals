@@ -2,7 +2,7 @@
  * @example node ./tests/index.js
  */ 
 
-require('../magic-globals');
+require('../index');
 o = console.log
 
 
