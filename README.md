@@ -15,11 +15,11 @@ require('magic-globals')
 console.log(__line) // 6
 console.log(__file) // server
 console.log(__ext) // js
-console.log(__base) // /home/node/apps/5pt-app-model-example/api-example
-console.log(__filename) // /home/node/apps/5pt-app-model-example/api-example/server/server.js
+console.log(__base) // /home/node/myapp
+console.log(__filename) // /home/node/myapp/server/server.js
 console.log(__func) // someFunction or (anonymous) 
-console.log(__dirname) // /home/node/apps/5pt-app-model-example/api-example/server
-console.log(__fili) // /home/node/apps/5pt-app-model-example/api-example/server/server.js:6
+console.log(__dirname) // /home/node/myapp/server
+console.log(__fili) // /home/node/myapp/server/server.js:6
 ```
 
 ## Credits
