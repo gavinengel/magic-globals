@@ -12,14 +12,14 @@ require('magic-globals')
 
 // you may now use additional global objects,
 // in addition to built-ins: __filename and __dirname
-console.log(__line) // 6
+console.log(__filename) // /home/node/myapp/server/server.js
 console.log(__file) // server
+console.log(__line) // 6
+console.log(__fili) // /home/node/myapp/server/server.js:6
 console.log(__ext) // js
 console.log(__base) // /home/node/myapp
-console.log(__filename) // /home/node/myapp/server/server.js
 console.log(__func) // someFunction or (anonymous) 
 console.log(__dirname) // /home/node/myapp/server
-console.log(__fili) // /home/node/myapp/server/server.js:6
 ```
 
 ## Credits
