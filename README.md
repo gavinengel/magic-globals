@@ -32,6 +32,7 @@ These sources have helped to create this module by sharing their code:
 These are alternative projects which can yield achieve a similar result:
 * https://www.npmjs.com/package/nor-debug
 * https://www.npmjs.com/package/pitestglobals
+* https://www.npmjs.com/package/magicmethods
 
 ## License
 
