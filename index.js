@@ -26,7 +26,8 @@ Object.defineProperty(global, '__line', {
 /** return filename (without directory path or file extension) when placing this in your code: __file */
 Object.defineProperty(global, '__file', {
   get: function(){
-    return __stack[1].getFileName().split(/[\\\/]/).slice(-1)[0].split('.').slice(0)[0];
+    var file_pieces = __stack[1].getFileName().split(/[\\\/]/).slice(-1)[0].split('.');//.slice(0)[0];
+    return file_pieces.slice(0, file_pieces.length - 1).join('.');
   }
 });
 
