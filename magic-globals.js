@@ -4,6 +4,7 @@
  */
 
 /** begin setting magic properties into global (required for other functions) */
+if (!global.hasOwnProperty('__stack'))
 Object.defineProperty(global, '__stack', {
   get: function(){
     var orig = Error.prepareStackTrace;
@@ -17,6 +18,7 @@ Object.defineProperty(global, '__stack', {
 });
 
 /** returns line number when placing this in your code: __line */
+if (!global.hasOwnProperty('__line'))
 Object.defineProperty(global, '__line', {
   get: function(){
     return __stack[1].getLineNumber();
@@ -24,6 +26,7 @@ Object.defineProperty(global, '__line', {
 });
 
 /** return filename (without directory path or file extension) when placing this in your code: __file */
+if (!global.hasOwnProperty('__file'))
 Object.defineProperty(global, '__file', {
   get: function(){
     var file_pieces = __stack[1].getFileName().split(/[\\\/]/).slice(-1)[0].split('.');
@@ -32,6 +35,7 @@ Object.defineProperty(global, '__file', {
 });
 
 /** return file extension (without preceding period) when placing this in your code: __ext */
+if (!global.hasOwnProperty('__ext'))
 Object.defineProperty(global, '__ext', {
   get: function(){
     return __stack[1].getFileName().split('.').slice(-1)[0];
@@ -42,6 +46,7 @@ Object.defineProperty(global, '__ext', {
  * return current function
  * @source https://gist.github.com/lordvlad/ec81834ddff73aaa1ab0
  */
+if (!global.hasOwnProperty('__func'))
 Object.defineProperty(global, '__func', {
     get: function(){
         return arguments.callee.caller && arguments.callee.caller.name || '(anonymous)';
@@ -49,6 +54,7 @@ Object.defineProperty(global, '__func', {
 });
 
 /** return base path of project */ 
+if (!global.hasOwnProperty('__base'))
 Object.defineProperty(global, '__base', {
   get: function(){
     return process.cwd(); 
@@ -56,6 +62,7 @@ Object.defineProperty(global, '__base', {
 });
 
 /** returns filename, a colon, and line number when placing this in your code: __fili */
+if (!global.hasOwnProperty('__fili'))
 Object.defineProperty(global, '__fili', {
   get: function(){
     filid = ':'
